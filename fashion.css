@@ -1,0 +1,41 @@
+.heading {
+    text-align: center;
+    font: small-caps bold 24px/1 sans-serif;
+    font-size: xx-large;
+    font-style:initial;
+    color: firebrick;
+}
+.brands{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 60px;
+    
+}
+.brand-card {
+    border-radius: 30px;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+.brand-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-info{
+    background-color: #BDE8CA;
+    
+    padding: 10px;
+}
+.brand-card button{
+    padding: 6px;
+    width: 280px;
+    
+}
+.product-info button{
+    cursor: pointer;
+}
